@@ -1,0 +1,17 @@
+<resources>
+    <string name="wisefinance">
+        WiseFinance
+    </string>
+    <string name="ojeito">
+        O jeito mais fácil de controlar suas finanças
+    </string>
+    <string name="sinta">
+        Sinta a felicidade de ter o controle de suas finanças em um só lugar
+    </string>
+    <string name="comecar">
+        Começar
+    </string>
+    <string name="crie">
+        <b>Crie sua conta</b> \n Digite seu e-mail para se inscrever"
+    </string>
+</resources>

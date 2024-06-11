@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".telaCadastro">
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+        <ImageView
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            android:layout_marginBottom="500dp"
+            android:src="@drawable/logo"/>
+
+
+
+       <TextView
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:layout_marginTop="200dp"
+           android:textSize="48px"
+           android:gravity="center"
+           android:text="@string/crie"
+           android:textColor="@color/black"
+           android:fontFamily="@font/inter_regular"
+           app:layout_constraintBottom_toBottomOf="300dp"
+           app:layout_constraintEnd_toEndOf="parent"
+           app:layout_constraintStart_toStartOf="parent"
+           app:layout_constraintTop_toTopOf="parent"
+        />
+
+
+        <EditText
+            android:id="@+id/nome"
+            android:background="@drawable/caixa"
+            android:layout_height="40dp"
+            android:layout_width="375dp"
+            android:text="Informe seu nome completo"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <EditText
+            android:id="@+id/email2"
+            android:background="@drawable/caixa"
+            style="@style/caixinha"
+            android:layout_height="40dp"
+            android:layout_width="375dp"
+            android:hint="name@example.com"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/nome"
+            />
+
+
+        <EditText
+            android:id="@+id/senha2"
+            android:background="@drawable/caixa"
+            style="@style/caixinha"
+            android:layout_height="40dp"
+            android:layout_width="375dp"
+            android:hint="name@example.com"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/email2"
+            />
+
+
+
+        <androidx.appcompat.widget.AppCompatButton
+            style="@style/Button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/cont2"
+            android:backgroundTint="@color/black"
+            android:text="Cadastrar"
+            />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.core.widget.NestedScrollView>
